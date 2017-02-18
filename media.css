@@ -1,0 +1,93 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.wrapper {
+	width: 100%;
+	margin-left: 0;
+}
+
+.project {
+	color: grey;
+	font-size: 26px;
+	margin: 20px 0 0 0;
+}
+
+.button button {
+	display: block;
+	width: 100%;
+	padding: 10px 10px;
+	border-width: 0;
+}
+.button button a {
+	text-decoration: none;
+	color: grey;
+	font-size: 15px;
+
+}
+
+.button button:first-child {
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px; 
+
+
+}
+
+.button button:last-child {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 0;
+}
+
+
+.marketing {
+	font-size: 15px;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+.marketing button {
+	color: white;
+	background: green;
+	padding: 15px 40px;
+	border: none;
+	border-radius: 7px;
+}
+
+
+.contend {
+	padding: 20px;
+}
+
+.safari {
+	display: block;
+	width: 100%;
+	padding-left: 0;
+}
+
+.heading {
+	vertical-align: top;
+	display: block;
+	width: 100%;
+	padding-left: 0;
+}
+
+.contend button {
+
+	background: #337AB7;
+	border: none;
+	color: white;
+	border-radius: 7px;
+	padding: 10px 10px;
+	width: 100%;
+}
+
+.footer {
+	color: grey;
+	font-size: 16px;
+	padding: 10px 20px;
+}
+
+}
